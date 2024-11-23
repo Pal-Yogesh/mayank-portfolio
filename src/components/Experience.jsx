@@ -25,11 +25,11 @@ const Experience = () => {
 
   return (
     <>
-      <div className="bg-[#003346] text-[#F8F9FA] p-7  lg:p-20">
+      <div className="bg-[#003346] text-[#F8F9FA] p-7   lg:p-20">
         <div>
-          <div className="flex justify-center items-center gap-4">
+          <div className="flex justify-center items-center gap-4 pt-5 md:pt-0">
             <hr className="lg:w-[90px] w-[17px] h-[2px]" />
-            <h2 className="font-bricolage text-[12px] lg:text-[1.5rem]">
+            <h2 className="font-bricolage text-[12px] lg:text-[1.5rem] ">
               Career so far
             </h2>
             <hr className="w-[17px] lg:w-[90px] h-[2px]" />
@@ -39,7 +39,7 @@ const Experience = () => {
           </h2>
         </div>
 
-        <div className="mt-24 space-y-10">
+        <div className="mt-16 md:mt-24 pb-6 md:pb-0 space-y-10">
           {experiences.map((experience, index) => (
             <div
               key={index}

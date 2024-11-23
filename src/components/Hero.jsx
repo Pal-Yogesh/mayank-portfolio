@@ -27,7 +27,7 @@ const Hero = () => {
           </div>
           <div className="pt-8 lg:pt-0">
             <Image
-              src="/Frame 73.svg"
+              src="/mayank.svg"
               width={1000}
               height={1000}
               alt="img"
