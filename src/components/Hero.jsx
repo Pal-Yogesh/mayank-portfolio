@@ -13,7 +13,7 @@ const skills = [
 const Hero = () => {
   return (
     <>
-      <div className="bg-[#00425A]">
+      <div className="bg-[#051521]">
         
         <div className="md:grid md:grid-cols-2  lg:flex lg:justify-between lg:items-center pt-24 lg:pt-0 px-10 lg:px-28">
           <div className="text-[#FFFFFF] lg:w-[500px] md:pt-20 lg:pt-0">

@@ -3,7 +3,7 @@ import React from "react";
 const Mymantra = () => {
   return (
     <>
-      <div className="bg-[#00425A] px-8  py-16  lg:p-24">
+      <div className="bg-[#051521] px-8  py-16  lg:p-24">
         <div className="text-[32px] lg:text-7xl flex gap-2 items-center">
           <h1 className="text-[#F8F9FA] font-playfair">
             My <span className="text-[#00EEEB]">Mantra</span>

@@ -25,7 +25,7 @@ const Experience = () => {
 
   return (
     <>
-      <div className="bg-[#003346] text-[#F8F9FA] p-7   lg:p-20">
+      <div className="bg-[#042631] text-[#F8F9FA] p-7   lg:p-20">
         <div>
           <div className="flex justify-center items-center gap-4 pt-5 md:pt-0">
             <hr className="lg:w-[90px] w-[17px] h-[2px]" />
