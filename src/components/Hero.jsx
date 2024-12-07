@@ -31,7 +31,7 @@ const Hero = () => {
               width={1000}
               height={1000}
               alt="img"
-              className="lg:w-[546px] lg:h-[682px] md:w-[350px] md:h-[300px]"
+              className="lg:w-[546px] lg:h-[640px] md:w-[350px] md:h-[300px]"
             />
           </div>
         </div>
@@ -44,7 +44,7 @@ const Hero = () => {
               {skills.map((skill, index) => (
                 <div key={index} className="flex gap-3">
                   <div className="bg-[#00EEEB] w-[20px] h-[20px] rounded-full"></div>
-                  <p className=" w-[271px] font-manrope ">{skill}</p>
+                  <p className=" w-[271px] font-manrope tracking-wider">{skill}</p>
                 </div>
               ))}
             </div>
